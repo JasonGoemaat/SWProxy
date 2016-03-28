@@ -1,0 +1,61 @@
+# 2016.03.17 15:02:56 Central Daylight Time                                                                                                                       
+#Embedded file name: SWParser\smon_decryptor.pyo                                                                                                                  
+from Crypto.Cipher import AES                                                                                                                                     
+import zlib                                                                                                                                                       
+import hashlib                                                                                                                                                    
+import base64                                                                                                                                                     
+ks = '\xd8\x80\xb6v\x8dI\xb2\x9e\xd0Z\xd3u\xe3?\x1b\x8fb\xa1\xbam\xbd$\x96\xc9\xa7OkJU6\x87\xde\x8e\xb2\xce6\xeb\xc4+\xd1s\xbb?\x80\x06\x1c+\xab\xb2\x8dz\x85~;\x1
+1\xce\x06\x97~*\x0b\\%\xbb\x97x\t\x87EX]5k \r\xf0\xbd\xa1\xe4\xdfu\xd5q\xfaB\xd3}\xe8";\x9f\xbd\xb2\x82!\xc7!^4\xf2\t\xb8\xe2\x16\xdbh\xca5\x97j\x99\xe2H\x82\xd4\
+xfb|\xb5-Q\x7fc\xbc\xa48\x10\xec(xS\xabK\xd6\xc1.\xf1\x98\xa5\xf1\x0c3=;\xfd\x1f\xcb\x98\xf7oz\xc9\x0e\xfd\xe3\xd8P\'tL\xc4\xe3\xbd\xc5>z\xee\xb6\xc9uN\x99c\xaeD\
+xd3W\xa3\xec\xde\r\x031\xf5\\\x0cT\x03n\xfc\x9d&P\x0b\xcd\x94>\x8a\xa5~\xbe\x18K\xa5dzM\xb0\x0b#\x96\xe4\x8d\x017\x8d\x96\r\x0flNc{\x8b\xc56\x00\xce\x05\xe9\xaa]C
+\xden\x97\x90\x927\xcdH\xe5\x00M\xa5~\r\xcfZ\xa7\x9f\x82\xc5\x14OJ\xdf\xb2\x9d\xf0u\x97\x85\x9d3|\xdf^\xe7n\xbd\x9fR;-\xd6\xb5+\\\xc2PuQ\x12}n\x87\x8d=\xc7]\xb9<\
+'\xd9{\xbd@\x02R\x05\xd6\xb5M\xf6P\xfd\x85\xa4\x19\xdf\xaed\'\xbf\x15\xdc\xe7f\xf7\x97%\xc1{o\x1c\xc8=\xebN*\xef\rh\x12`h\xc3\x9e8\xef\xc3\xf9\x8e\xba:g%\xf8:\xc3
+\x1f&\xfb\xf9\xa6\x9d\xfc\xec\x11\xae\xec\xd6:\xf2\xd7\x0f=\xb8\x8c*GS\xa8L\xa6%\xcd\xdf!\xc0\x81\x8av\xba\xe2M.\xed\xbax\xe5\xad\xb0\x83\xcfu\x17]A\xe7\xde\'\xa0
+\xbfLoe\x0c\xd0\xa7\xb5\x93z\xfam-G\xab\xbbZG\x04a\xd7\x0fX\'\x85\x02\xe6y(\xf2\xfe!\xde}!3\xac\x1d\xd9/};R\xeb\xbf\xac9\x81$\xdb\xd2\xdb\xb8S\x978\x8e&x\xeeoo/i\
+xa0H\x1a=G\x8eh\xa0\x0e,\xa2\xe1]9\xa0\n\xdb\x0eW\xd0\xc1t\xe6\x8e\xea\xe6\xba2\xf7}\x02\xf5~-\xf5\xde\xa8\xeb\xdd\xfd\xe0-8\x0c\x8b\x15\x107\xfc\x07Pc-\xce0\xbb\
+xb7\\/i\x95 \x8c\xaf\x93\xde\x81_\xc0\x8e\xb4\xe1\xfb\xe3\xa6\x83\xe2\xd6\xf8\xefM\x19Oo;*\xdb\xd9O\x9c\xa0\xebn\xf7K\xb5\x1c-Y6\xaf|\xbb\x0fuf\x85\xab\x9d\xe0\xf
+89\x8b\x9e\xc5\xeb\x19\xb5_1\xb1\xab\x9en\xd1\xdf\x18\xb6@46\xdf6\xc19}b\xa9\x1bo\xdd\xf5\x9a\x1d8\x17\xb13\x1d\xafhS\x8dm\xd9\xfd;\x1b\x84=\x1aC\xaa\xa5q\x90\x8c
+Y}K\xa6\x99\x10\xc9\xf7-\x9e;\x08\x90\x14z\xf1\xc6\xf4\xb3\x00\xbfmm,\x89HZM{O\xbf\x03\x13Nj\x147\x08}\x1a:\xd3\x99s\x02\xe6\xcez\xdd\xb9pt\xeb\x96\xd3u!Oi\xb3K\x
+b5\xefm\xf8\x932zZ\xc9\xf8\xd1\xafP\xb7\nKyN\xf7GM\xbb4\xc1\x94T\xeec\xb3\xac^\xed\x0f7\xd6\x1e*l\x9a\xde\xa7\x8d \xf0\x84\xfd"\xbd\x1a\x8bfg\xce\'\xb3\x96]oz\xf0
+)\xec\x91\xbc\xe7c`m\xa7}\xd6GA'                                                                                                                                  
+i = [337,                                                                                                                                                         
+ 21,                                                                                                                                                              
+ 428,                                                                                                                                                             
+ 323,                                                                                                                                                             
+ 104,                                                                                                                                                             
+ 684,                                                                                                                                                             
+ 636,                                                                                                                                                             
+ 232,                                                                                                                                                             
+ 154,                                                                                                                                                             
+ 266,                                                                                                                                                             
+ 770,                                                                                                                                                             
+ 83,                                                                                                                                                              
+ 908,                                                                                                                                                             
+ 424,                                                                                                                                                             
+ 644,                                                                                                                                                             
+ 739]                                                                                                                                                             
+                                                                                                                                                                  
+def __var__():                                                                                                                                                    
+    key = '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'                                                                                      
+    k = base64.b64encode(ks)                                                                                                                                      
+    for j in xrange(0, 16):                                                                                                                                       
+        key = key[0:j] + k[i[j]] + key[j + 1:]                                                                                                                    
+                                                                                                                                                                  
+    return key                                                                                                                                                    
+                                                                                                                                                                  
+                                                                                                                                                                  
+def _decrypt(msg, key = None):                                                                                                                                    
+    if key is None:                                                                                                                                               
+        key = __var__()                                                                                                                                           
+    obj = AES.new(key, AES.MODE_CBC, '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')                                                          
+    r = obj.decrypt(base64.b64decode(msg))                                                                                                                        
+    padding = ord(r[-1])                                                                                                                                          
+    return r[0:-padding]                                                                                                                                          
+                                                                                                                                                                  
+                                                                                                                                                                  
+def decrypt_request(msg):                                                                                                                                         
+    return _decrypt(msg)                                                                                                                                          
+                                                                                                                                                                  
+                                                                                                                                                                  
+def decrypt_response(msg):                                                                                                                                        
+    return zlib.decompress(_decrypt(msg))                                                                                                                         

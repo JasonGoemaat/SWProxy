@@ -10,10 +10,15 @@ import socket
 import sys
 import argparse
 import struct
+import requests
 
 VERSION = "0.98"
 GITHUB = 'https://github.com/kakaroto/SWProxy'
 logger = logging.getLogger("SWProxy")
+# print "In SWProxy.py, posting sample"
+# requests.post("http://localhost:9988/api/ProxyData", json = { "plainRequest": "PLAIN REQUEST" })
+# print "In SWProxy.py, done posting sample"
+
 
 class HTTP(proxy.TCP):
     """
@@ -22,6 +27,7 @@ class HTTP(proxy.TCP):
     """
 
     def handle(self, client):
+        print "Creating SWProxyCallback()"
         callback = SWProxyCallback()
         proc = proxy.Proxy(client, callback)
         proc.daemon = True
@@ -30,11 +36,13 @@ class HTTP(proxy.TCP):
 
 
 class SWProxyCallback(object):
+    print "in SWProxyCallback"
 
     def __init__(self):
         self.request = None
 
     def onRequest(self, proxy, host, port, request):
+        print "onRequest"
         try:
             if host.startswith('summonerswar') and host.endswith('com2us.net') and request.url.path.startswith('/api/'):
                 self.request = request  # if we care about this api call, store request for decryption later
@@ -43,13 +51,24 @@ class SWProxyCallback(object):
 
     def onResponse(self, proxy, response):
 
+        # print "onResponse"
+
         if self.request is None:
             # we have not obtained a valid request yet
+            print "onResponse: no valid request"
             return
 
         try:
+            # print "onResponse: VALID REQUEST"
             req_plain, req_json = self._parse_request(self.request)
+            # print "onResponse: VALID REQUEST STEP 2"
             resp_plain, resp_json = self._parse_response(response)
+            # print "onResponse: VALID REQUEST STEP 3"
+            # JASON TODO: send to my API
+            body = { "plainRequest": req_plain, "plainResponse": resp_plain }
+            # print "Calling requests.post..."
+            # print req_json
+            requests.post("http://localhost:9988/api/ProxyData", json = body)
 
             if 'command' not in resp_json:
                 # we only want apis that are commands
@@ -62,6 +81,7 @@ class SWProxyCallback(object):
                 logger.exception('Exception while executing plugin : {}'.format(e))
 
         except Exception as e:
+            print "unknown exception: {}".format(e)
             logger.debug('unknown exception: {}'.format(e))
 
     def onDone(self, proxy):
@@ -69,13 +89,32 @@ class SWProxyCallback(object):
 
     def _parse_request(self, request):
         """ takes a request, returns the decrypted plain and json """
+        print "decrypting request:"
+        print request.body
         plain = decrypt_request(request.body)
-        return plain, json.loads(plain)
+        print "decrypted request"
+        print plain
+        j = ""
+        try:
+            j = json.loads(plain)
+        except Exception as e:
+            print "request json exception"
+            
+        return plain, j
 
     def _parse_response(self, response):
         """ takes a response body, returns the decrypted plain and json """
+        print "decrypting response"
+        print response.body
         plain = decrypt_response(response.body)
-        return plain, json.loads(plain)
+        print "decrypted response"
+        j = ""
+        try:
+            j = json.loads(plain)
+        except Exception as e:
+            print "request json exception"
+            
+        return plain, j
 
 
 def get_external_ip():

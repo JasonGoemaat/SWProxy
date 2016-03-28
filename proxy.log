@@ -1,0 +1,320 @@
+2016-03-17 04:00:41,713: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:00:41,740: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:01:19,619: proxy - INFO - 192.168.0.61:51174 - CONNECT gspe35-ssl.ls.apple.com:443
+2016-03-17 04:01:24,710: proxy - INFO - 192.168.0.61:51181 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:24,881: proxy - INFO - 192.168.0.61:51182 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:25,036: proxy - INFO - 192.168.0.61:51183 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:25,223: proxy - INFO - 192.168.0.61:51184 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:25,411: proxy - INFO - 192.168.0.61:51185 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:25,538: proxy - INFO - 192.168.0.61:51186 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:25,707: proxy - INFO - 192.168.0.61:51187 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:25,859: proxy - INFO - 192.168.0.61:51188 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:26,003: proxy - INFO - 192.168.0.61:51189 - CONNECT itunes.apple.com:443
+2016-03-17 04:01:27,822: proxy - INFO - 192.168.0.61:51190 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 527 bytes
+2016-03-17 04:01:28,223: proxy - INFO - 192.168.0.61:51191 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 463 bytes
+2016-03-17 04:01:30,233: proxy - INFO - 192.168.0.61:51192 - GET summonerswar-gb.com2us.net:80/api/location.php - 200 OK - 331 bytes
+2016-03-17 04:01:30,696: proxy - INFO - 192.168.0.61:51193 - POST summonerswar-gb.com2us.net:80/api/server_status.php - 200 OK - 287 bytes
+2016-03-17 04:01:31,197: proxy - INFO - 192.168.0.61:51194 - POST summonerswar-gb.com2us.net:80/api/version_info.php - 200 OK - 1613 bytes
+2016-03-17 04:01:31,444: proxy - INFO - 192.168.0.61:51195 - GET image-glb.qpyou.cn:80/smon/hub_dist/res/download_2.00.57.inf - 200 OK - 824 bytes
+2016-03-17 04:01:33,203: proxy - INFO - 192.168.0.61:51196 - GET image-glb.qpyou.cn:80/smon/hub_dist/banapplist/banapplist.dat - 200 OK - 1553 bytes
+2016-03-17 04:01:34,398: proxy - INFO - 192.168.0.61:51197 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:35,625: proxy - INFO - 192.168.0.61:51198 - CONNECT hub.qpyou.cn:443
+2016-03-17 04:01:36,552: proxy - INFO - 192.168.0.61:51199 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:36,726: proxy - INFO - 192.168.0.61:51200 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/03097/01e5ea/012fb2c/09b39025b0407d5d15c63552bc9e6de0_public_s.jpg?1431064704 - 200 OK - 11554 bytes
+2016-03-17 04:01:37,032: proxy - INFO - 192.168.0.61:51201 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 380 bytes
+2016-03-17 04:01:37,121: proxy - INFO - 192.168.0.61:51202 - POST m-mercury.qpyou.cn:80/init - 200 OK - 630 bytes
+2016-03-17 04:01:38,855: proxy - INFO - 192.168.0.61:51203 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 80426 bytes
+2016-03-17 04:01:39,430: proxy - INFO - 192.168.0.61:51205 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 552 bytes
+2016-03-17 04:01:40,117: proxy - INFO - 192.168.0.61:51206 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 552 bytes
+2016-03-17 04:01:42,953: proxy - INFO - 192.168.0.61:51207 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1212 bytes
+2016-03-17 04:01:42,980: proxy - INFO - 192.168.0.61:51210 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 404 bytes
+2016-03-17 04:01:43,003: proxy - INFO - 192.168.0.61:51209 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 404 bytes
+2016-03-17 04:01:43,010: proxy - INFO - 192.168.0.61:51208 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:01:43,131: proxy - INFO - 192.168.0.61:51211 - POST m-mercury.qpyou.cn:80/init - 200 OK - 725 bytes
+2016-03-17 04:01:43,345: proxy - INFO - 192.168.0.61:51213 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 552 bytes
+2016-03-17 04:01:43,382: proxy - INFO - 192.168.0.61:51214 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 808 bytes
+2016-03-17 04:01:43,392: proxy - INFO - 192.168.0.61:51215 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 404 bytes
+2016-03-17 04:01:47,641: proxy - INFO - 192.168.0.61:51216 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1257 bytes
+2016-03-17 04:01:48,117: proxy - INFO - 192.168.0.61:51219 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:48,134: proxy - INFO - 192.168.0.61:51217 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 404 bytes
+2016-03-17 04:01:48,150: proxy - INFO - 192.168.0.61:51218 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 552 bytes
+2016-03-17 04:01:48,163: proxy - INFO - 192.168.0.61:51220 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/117789232/20160309/225dad566b05c9f7dde919ceb431c87d.jpg - 200 OK - 13862 bytes
+2016-03-17 04:01:48,594: proxy - INFO - 192.168.0.61:51221 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:48,924: proxy - INFO - 192.168.0.61:51223 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:48,963: proxy - INFO - 192.168.0.61:51224 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/public/puzzle_02_s.png - 200 OK - 4357 bytes
+2016-03-17 04:01:49,345: proxy - INFO - 192.168.0.61:51225 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:49,413: proxy - INFO - 192.168.0.61:51226 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/03c11/0258b2/01776f5/02e426cc5d77f7a60b5ce1aed0a753c0_public_s.jpg - 200 OK - 9514 bytes
+2016-03-17 04:01:50,267: proxy - INFO - 192.168.0.61:51227 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:50,311: proxy - INFO - 192.168.0.61:51228 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/129910741/20160131/c9bfcb45a402bb3cc24ceb1ce69bd293.jpg - 200 OK - 14446 bytes
+2016-03-17 04:01:50,698: proxy - INFO - 192.168.0.61:51229 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:50,750: proxy - INFO - 192.168.0.61:51230 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/03aca/024bec/016f73c/53ebef7cc82ff8c3caccf151c704b6e9_public_s.jpg - 200 OK - 13613 bytes
+2016-03-17 04:01:51,598: proxy - INFO - 192.168.0.61:51231 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:51,661: proxy - INFO - 192.168.0.61:51232 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/03aaf/024add/016eca9/63fcc08436efecbe73904170e93e4503_public_s.jpg - 200 OK - 12942 bytes
+2016-03-17 04:01:52,111: proxy - INFO - 192.168.0.61:51233 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:52,151: proxy - INFO - 192.168.0.61:51234 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/111921768/20160307/80ae44975a3ac5f62430e27933c3668e.jpg - 200 OK - 11710 bytes
+2016-03-17 04:01:53,019: proxy - INFO - 192.168.0.61:51235 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:53,030: proxy - INFO - 192.168.0.61:51176 - CONNECT setting.adzcore.com:443
+2016-03-17 04:01:53,088: proxy - INFO - 192.168.0.61:51236 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/169138423/20160213/d3e253d449ca86d21b2ceaee866cb873.jpg - 200 OK - 8188 bytes
+2016-03-17 04:01:53,931: proxy - INFO - 192.168.0.61:51175 - GET app-adforce.jp:80/ad//p/tmck?_app=2504&_bundle_id=com.com2us.smon.normal.freefull.apple.kr.ios.universal&_bv=2.0.6&_model=iPhone7%2C2&_os_ver=9.2.1&_sdk_ver=v2.15.2g - None None - 0 bytes
+2016-03-17 04:01:54,130: proxy - INFO - 192.168.0.61:51237 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:54,171: proxy - INFO - 192.168.0.61:51239 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/91557005/20160203/865517720ecc404826c7eba69bc1f63a.jpg - 200 OK - 13199 bytes
+2016-03-17 04:01:54,414: proxy - INFO - 192.168.0.61:51238 - GET app-adforce.jp:80/ad//p/tmck?_app=2504&_bundle_id=com.com2us.smon.normal.freefull.apple.kr.ios.universal&_bv=2.0.6&_model=iPhone7%2C2&_os_ver=9.2.1&_sdk_ver=v2.15.2g - 200 OK - 488 bytes
+2016-03-17 04:01:54,599: proxy - INFO - 192.168.0.61:51240 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:54,655: proxy - INFO - 192.168.0.61:51241 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/03bb9/025541/0175493/34ce3d2cde5b814708ab71196b0c6e84_public_s.jpg - 200 OK - 14402 bytes
+2016-03-17 04:01:55,082: proxy - INFO - 192.168.0.61:51242 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:55,145: proxy - INFO - 192.168.0.61:51243 - GET image-aka.qpyou.cn:80/hubweb/avatar_img/03b1e/024f2d/01717c5/f4cba55c79edd047745bd3c1b3918e2c_public_s.jpg - 200 OK - 11672 bytes
+2016-03-17 04:01:55,147: proxy - INFO - 192.168.0.61:51177 - CONNECT graph.facebook.com:443
+2016-03-17 04:01:55,303: proxy - INFO - 192.168.0.61:51180 - CONNECT live.chartboost.com:443
+2016-03-17 04:01:55,305: proxy - INFO - 192.168.0.61:51178 - CONNECT action.adzcore.com:443
+2016-03-17 04:01:55,420: proxy - INFO - 192.168.0.61:51179 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:01:56,512: proxy - INFO - 192.168.0.61:51244 - CONNECT api.qpyou.cn:443
+2016-03-17 04:01:56,707: proxy - INFO - 192.168.0.61:51245 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/165194291/20151220/33b76f4c7328c142fcf7fd5a5f71fcbb.jpg - 200 OK - 12383 bytes
+2016-03-17 04:02:09,470: proxy - INFO - 192.168.0.61:51204 - CONNECT 169452.engine.mobileapptracking.com:443
+2016-03-17 04:02:13,651: proxy - INFO - 192.168.0.61:51212 - CONNECT p43-buy.itunes.apple.com:443
+2016-03-17 04:02:48,072: proxy - INFO - 192.168.0.61:51251 - POST m-mercury.qpyou.cn:80/init - 200 OK - 897 bytes
+2016-03-17 04:02:54,124: proxy - INFO - 192.168.0.61:51248 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:03:13,953: proxy - INFO - 192.168.0.61:51249 - CONNECT webdav.facebook.com:443
+2016-03-17 04:03:14,073: proxy - INFO - 192.168.0.61:51250 - CONNECT webdav.facebook.com:443
+2016-03-17 04:03:54,102: proxy - INFO - 192.168.0.61:51253 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:04:54,108: proxy - INFO - 192.168.0.61:51254 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:05:54,059: proxy - INFO - 192.168.0.61:51255 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:06:45,118: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:06:45,131: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:07:16,289: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:07:16,303: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:07:21,345: proxy - INFO - 192.168.0.61:51257 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 808 bytes
+2016-03-17 04:07:33,306: proxy - INFO - 192.168.0.61:51259 - GET init-p01st.push.apple.com:80/bag - 200 OK - 6821 bytes
+2016-03-17 04:07:54,117: proxy - INFO - 192.168.0.61:51258 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:08:06,483: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:08:06,497: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:08:13,016: proxy - INFO - 192.168.0.61:51262 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 892 bytes
+2016-03-17 04:08:52,354: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:08:52,368: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:08:56,030: proxy - INFO - 192.168.0.61:51264 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 892 bytes
+2016-03-17 04:09:22,765: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:09:22,779: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:09:29,141: proxy - INFO - 192.168.0.61:51266 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 892 bytes
+2016-03-17 04:09:55,117: proxy - INFO - 192.168.0.61:51265 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:11:42,232: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:11:42,243: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:12:50,539: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:12:50,549: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:13:28,483: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:13:28,493: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:13:49,272: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:13:49,282: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:14:00,138: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 127.0.0.1
+2016-03-17 04:14:00,140: SWProxy - INFO - Found Summoners War API request : MoveUnit
+2016-03-17 04:14:00,141: proxy - INFO - 192.168.0.61:51282 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:14:54,062: proxy - INFO - 192.168.0.61:51283 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:15:03,711: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:15:03,720: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:15:09,503: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 127.0.0.1
+2016-03-17 04:15:09,505: SWProxy - INFO - Found Summoners War API request : MoveUnit
+2016-03-17 04:15:09,506: proxy - INFO - 192.168.0.61:51284 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:15:54,102: proxy - INFO - 192.168.0.61:51285 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:16:54,124: proxy - INFO - 192.168.0.61:51286 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:17:17,878: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:17:17,888: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:17:23,463: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:17:57,063: proxy - INFO - 192.168.0.61:51287 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:18:55,862: proxy - INFO - 192.168.0.61:51289 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:19:27,006: SWProxy - INFO - Found Summoners War API request : MoveUnit
+2016-03-17 04:19:27,007: proxy - INFO - 192.168.0.61:51288 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1212 bytes
+2016-03-17 04:19:54,098: proxy - INFO - 192.168.0.61:51290 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:20:54,059: proxy - INFO - 192.168.0.61:51291 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:20:57,792: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:21:04,216: proxy - INFO - 192.168.0.61:51292 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:21:25,457: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:21:33,476: proxy - INFO - 192.168.0.61:51294 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:21:54,109: proxy - INFO - 192.168.0.61:51293 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:22:38,020: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:22:54,096: proxy - INFO - 192.168.0.61:51296 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:23:55,655: proxy - INFO - 192.168.0.61:51298 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:24:41,365: SWProxy - INFO - Found Summoners War API request : MoveUnit
+2016-03-17 04:24:41,365: proxy - INFO - 192.168.0.61:51297 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:24:54,039: proxy - INFO - 192.168.0.61:51299 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:25:32,335: proxy - INFO - 192.168.0.61:51300 - CONNECT webdav.facebook.com:443
+2016-03-17 04:25:54,043: proxy - INFO - 192.168.0.61:51301 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:26:43,214: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:26:54,098: proxy - INFO - 192.168.0.61:51302 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:27:13,431: SWProxy - INFO - Found Summoners War API request : MoveUnit
+2016-03-17 04:27:13,433: proxy - INFO - 192.168.0.61:51303 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 1192 bytes
+2016-03-17 04:27:54,095: proxy - INFO - 192.168.0.61:51304 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:28:54,049: proxy - INFO - 192.168.0.61:51305 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:29:54,042: proxy - INFO - 192.168.0.61:51307 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:30:52,275: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:30:52,286: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:31:14,905: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:31:16,217: SWProxy - INFO - Found Summoners War API request : MoveUnit
+2016-03-17 04:31:16,219: proxy - INFO - 192.168.0.61:51309 - POST summonerswar-gb.com2us.net:80/api/gateway.php - 200 OK - 360 bytes
+2016-03-17 04:31:54,062: proxy - INFO - 192.168.0.61:51310 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:32:49,158: proxy - INFO - 192.168.0.61:51312 - POST m-mercury.qpyou.cn:80/init - 200 OK - 630 bytes
+2016-03-17 04:32:54,068: proxy - INFO - 192.168.0.61:51311 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:33:54,039: proxy - INFO - 192.168.0.61:51313 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:34:54,032: proxy - INFO - 192.168.0.61:51314 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:35:54,030: proxy - INFO - 192.168.0.61:51315 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:36:18,693: proxy - INFO - 192.168.0.61:51316 - CONNECT p04-keyvalueservice.icloud.com:443
+2016-03-17 04:36:54,055: proxy - INFO - 192.168.0.61:51317 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:37:54,065: proxy - INFO - 192.168.0.61:51318 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:38:54,059: proxy - INFO - 192.168.0.61:51319 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:38:58,923: proxy - INFO - 192.168.0.61:51320 - GET init-p01st.push.apple.com:80/bag - 200 OK - 6821 bytes
+2016-03-17 04:39:54,061: proxy - INFO - 192.168.0.61:51322 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:40:32,288: proxy - INFO - 192.168.0.61:51323 - CONNECT webdav.facebook.com:443
+2016-03-17 04:40:54,042: proxy - INFO - 192.168.0.61:51331 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:40:56,108: proxy - INFO - 192.168.0.61:51334 - GET mesu.apple.com:80/assets/com_apple_MobileAsset_SafariCloudHistoryConfiguration/com_apple_MobileAsset_SafariCloudHistoryConfiguration.xml - 304 Not Modified - 249 bytes
+2016-03-17 04:40:56,474: proxy - INFO - 192.168.0.61:51335 - GET m.com2us.com:80/b?i=8011&g=8013&gc=7976 - 302 Moved Temporarily - 298 bytes
+2016-03-17 04:40:57,362: proxy - INFO - 192.168.0.61:51336 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:40:57,493: proxy - INFO - 192.168.0.61:51337 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:40:57,809: proxy - INFO - 192.168.0.61:51338 - CONNECT itunes.apple.com:443
+2016-03-17 04:40:59,020: proxy - INFO - 192.168.0.61:51340 - CONNECT search.itunes.apple.com:443
+2016-03-17 04:40:59,319: proxy - INFO - 192.168.0.61:51343 - CONNECT itunes.apple.com:443
+2016-03-17 04:40:59,515: proxy - INFO - 192.168.0.61:51344 - CONNECT itunes.apple.com:443
+2016-03-17 04:40:59,645: proxy - INFO - 192.168.0.61:51342 - CONNECT p04-keyvalueservice.icloud.com:443
+2016-03-17 04:40:59,963: proxy - INFO - 192.168.0.61:51345 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:41:00,947: proxy - INFO - 192.168.0.61:51348 - CONNECT se.itunes.apple.com:443
+2016-03-17 04:41:23,262: proxy - INFO - 192.168.0.61:51349 - GET app-adforce.jp:80/ad//p/tmck?_app=2504&_bundle_id=com.com2us.smon.normal.freefull.apple.kr.ios.universal&_bv=2.0.6&_model=iPhone7%2C2&_os_ver=9.2.1&_sdk_ver=v2.15.2g - 200 OK - 488 bytes
+2016-03-17 04:41:24,308: proxy - INFO - 192.168.0.61:51354 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:24,535: proxy - INFO - 192.168.0.61:51356 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:24,658: proxy - INFO - 192.168.0.61:51357 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:24,788: proxy - INFO - 192.168.0.61:51358 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:24,905: proxy - INFO - 192.168.0.61:51359 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:25,121: proxy - INFO - 192.168.0.61:51360 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:25,273: proxy - INFO - 192.168.0.61:51361 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:25,513: proxy - INFO - 192.168.0.61:51362 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:25,770: proxy - INFO - 192.168.0.61:51363 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:27,845: proxy - INFO - 192.168.0.61:51364 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 527 bytes
+2016-03-17 04:41:28,148: proxy - INFO - 192.168.0.61:51365 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 463 bytes
+2016-03-17 04:41:29,022: proxy - INFO - 192.168.0.61:51339 - CONNECT xp.apple.com:443
+2016-03-17 04:41:30,142: proxy - INFO - 192.168.0.61:51366 - GET summonerswar-gb.com2us.net:80/api/location.php - 200 OK - 331 bytes
+2016-03-17 04:41:30,354: proxy - INFO - 192.168.0.61:51341 - CONNECT p43-buy.itunes.apple.com:443
+2016-03-17 04:41:30,612: proxy - INFO - 192.168.0.61:51346 - CONNECT xp.apple.com:443
+2016-03-17 04:41:30,628: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:41:31,663: proxy - INFO - 192.168.0.61:51347 - CONNECT pd-st.itunes.apple.com:443
+2016-03-17 04:41:31,924: proxy - INFO - 192.168.0.61:51367 - POST summonerswar-gb.com2us.net:80/api/server_status.php - 200 OK - 287 bytes
+2016-03-17 04:41:32,345: requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): localhost
+2016-03-17 04:41:33,398: proxy - INFO - 192.168.0.61:51368 - POST summonerswar-gb.com2us.net:80/api/version_info.php - 200 OK - 1613 bytes
+2016-03-17 04:41:45,859: proxy - INFO - 192.168.0.61:51369 - CONNECT 169452.engine.mobileapptracking.com:443
+2016-03-17 04:41:45,861: proxy - INFO - 192.168.0.61:51355 - CONNECT live.chartboost.com:443
+2016-03-17 04:41:45,861: proxy - INFO - 192.168.0.61:51353 - CONNECT action.adzcore.com:443
+2016-03-17 04:41:45,861: proxy - INFO - 192.168.0.61:51350 - CONNECT setting.adzcore.com:443
+2016-03-17 04:41:45,861: proxy - INFO - 192.168.0.61:51351 - CONNECT graph.facebook.com:443
+2016-03-17 04:41:45,861: proxy - INFO - 192.168.0.61:51352 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:41:46,286: proxy - INFO - 192.168.0.61:51370 - GET m.com2us.com:80/b?i=8011&g=8013&gc=7976 - 302 Moved Temporarily - 298 bytes
+2016-03-17 04:41:47,086: proxy - INFO - 192.168.0.61:51371 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:41:47,214: proxy - INFO - 192.168.0.61:51372 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:41:47,440: proxy - INFO - 192.168.0.61:51373 - GET a1.mzstatic.com:80/us/r30/Features3/v4/f6/86/5f/f6865f09-b99a-44b9-7f84-786c8b2a9ad6/uber_750_304_2x.jpeg - 200 OK - 97230 bytes
+2016-03-17 04:41:47,625: proxy - INFO - 192.168.0.61:51376 - GET a2.mzstatic.com:80/us/r30/Purple49/v4/4b/a9/fc/4ba9fcbc-f503-4fd5-2e3f-784289e9017c/CRV_AP_360x216.jpeg - 200 OK - 14776 bytes
+2016-03-17 04:41:47,845: proxy - INFO - 192.168.0.61:51375 - CONNECT play.itunes.apple.com:443
+2016-03-17 04:41:47,884: proxy - INFO - 192.168.0.61:51377 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:48,033: proxy - INFO - 192.168.0.61:51378 - CONNECT itunes.apple.com:443
+2016-03-17 04:41:48,611: proxy - INFO - 192.168.0.61:51381 - GET a5.mzstatic.com:80/us/r30/Video6/v4/93/27/78/93277856-cbb0-7658-87cf-4de7f63d77fa/image400x226.jpeg - 200 OK - 16519 bytes
+2016-03-17 04:41:48,651: proxy - INFO - 192.168.0.61:51382 - GET a5.mzstatic.com:80/us/r30/Purple49/v4/6f/11/ae/6f11ae0c-751e-7040-f219-f8a77c531c22/screen696x696.jpeg - 200 OK - 164260 bytes
+2016-03-17 04:41:48,710: proxy - INFO - 192.168.0.61:51374 - CONNECT su.itunes.apple.com:443
+2016-03-17 04:41:48,719: proxy - INFO - 192.168.0.61:51384 - GET a2.mzstatic.com:80/us/r30/Purple69/v4/d1/3d/1b/d13d1be6-3da6-bdc8-8dcc-58d8563c1b71/screen696x696.jpeg - 200 OK - 153948 bytes
+2016-03-17 04:41:48,924: proxy - INFO - 192.168.0.61:51380 - CONNECT se.itunes.apple.com:443
+2016-03-17 04:41:48,963: proxy - INFO - 192.168.0.61:51385 - GET a4.mzstatic.com:80/us/r30/Purple2/v4/27/4e/34/274e34b3-ffc6-a585-e0f3-2a5ec3228773/screen696x696.jpeg - 200 OK - 133973 bytes
+2016-03-17 04:41:48,983: proxy - INFO - 192.168.0.61:51386 - GET a2.mzstatic.com:80/us/r30/Purple49/v4/8e/7a/ee/8e7aeec7-4df6-6804-7217-6985f6f4c560/screen696x696.jpeg - 200 OK - 146607 bytes
+2016-03-17 04:41:49,207: proxy - INFO - 192.168.0.61:51387 - GET a3.mzstatic.com:80/us/r30/Purple7/v4/06/c1/90/06c19049-785a-c0fa-2aee-ba671fb09d30/screen696x696.jpeg - 200 OK - 146513 bytes
+2016-03-17 04:41:49,559: proxy - INFO - 192.168.0.61:51388 - CONNECT p04-keyvalueservice.icloud.com:443
+2016-03-17 04:41:50,907: proxy - INFO - 192.168.0.61:51389 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:41:52,154: proxy - INFO - 192.168.0.61:51391 - CONNECT se.itunes.apple.com:443
+2016-03-17 04:41:53,812: proxy - INFO - 192.168.0.61:51393 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:41:54,026: proxy - INFO - 192.168.0.61:51394 - CONNECT init.itunes.apple.com:443
+2016-03-17 04:42:19,388: proxy - INFO - 192.168.0.61:51379 - CONNECT setup.icloud.com:443
+2016-03-17 04:42:20,605: proxy - INFO - 192.168.0.61:51383 - CONNECT setup.icloud.com:443
+2016-03-17 04:42:22,022: proxy - INFO - 192.168.0.61:51392 - HEAD iosapps.itunes.apple.com:80/apple-assets-us-std-000001/Purple49/v4/d0/f4/fa/d0f4fa75-3d22-0454-a55b-c655d44e875d/mzps6991996926338498376.ipa?accessKey=1458402114_2600790709088558759_oEF%2FimZZNmZnpRGC5xpw9Pte5zG4FE7YObS03te%2BKZ9hJfAW8Ut%2BlBmz3i%2FmXugeinhqbVz6ZNpmIH4cmNIWrAf6THQErwUAHj%2BxlNtMdIIcBVhvh8%2Frvg30cjWa1k7nISYmIYtX0ayLmxt1BRIwZey%2BwtC6OVc0OefFL7%2FpwUpHTY5SkUnvRuMTFqQ3%2BkWu - 200 OK - 749 bytes
+2016-03-17 04:42:22,283: proxy - INFO - 192.168.0.61:51398 - GET a1.mzstatic.com:80/us/r30/Purple49/v4/4b/a9/fc/4ba9fcbc-f503-4fd5-2e3f-784289e9017c/icon114x114.jpeg - 200 OK - 5834 bytes
+2016-03-17 04:42:22,697: proxy - INFO - 192.168.0.61:51390 - CONNECT p43-buy.itunes.apple.com:443
+2016-03-17 04:42:24,880: proxy - INFO - 192.168.0.61:51396 - CONNECT partiality.itunes.apple.com:443
+2016-03-17 04:42:25,282: proxy - INFO - 192.168.0.61:51395 - CONNECT p04-availability.icloud.com:443
+2016-03-17 04:42:51,697: proxy - INFO - 192.168.0.61:51397 - CONNECT xp.apple.com:443
+2016-03-17 04:43:06,072: proxy - INFO - 192.168.0.61:51399 - GET iosapps.itunes.apple.com:80/apple-assets-us-std-000001/Purple49/v4/d0/f4/fa/d0f4fa75-3d22-0454-a55b-c655d44e875d/mzps6991996926338498376.ipa?accessKey=1458402114_2600790709088558759_oEF%2FimZZNmZnpRGC5xpw9Pte5zG4FE7YObS03te%2BKZ9hJfAW8Ut%2BlBmz3i%2FmXugeinhqbVz6ZNpmIH4cmNIWrAf6THQErwUAHj%2BxlNtMdIIcBVhvh8%2Frvg30cjWa1k7nISYmIYtX0ayLmxt1BRIwZey%2BwtC6OVc0OefFL7%2FpwUpHTY5SkUnvRuMTFqQ3%2BkWu - 200 OK - 15134921 bytes
+2016-03-17 04:44:07,532: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:44:07,543: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:51:35,013: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:51:35,023: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:52:15,285: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:52:15,298: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:52:27,792: proxy - INFO - 192.168.0.61:51473 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 463 bytes
+2016-03-17 04:52:28,427: proxy - INFO - 192.168.0.61:51475 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 808 bytes
+2016-03-17 04:52:36,832: proxy - INFO - 192.168.0.61:51476 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1172 bytes
+2016-03-17 04:52:58,377: proxy - INFO - 192.168.0.61:51474 - CONNECT p43-buy.itunes.apple.com:443
+2016-03-17 04:52:58,877: proxy - INFO - 192.168.0.61:51472 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 04:53:09,365: proxy - INFO - 192.168.0.61:51477 - CONNECT graph.facebook.com:443
+2016-03-17 04:53:11,069: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 04:53:11,085: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 04:53:18,703: proxy - INFO - 192.168.0.61:51480 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1212 bytes
+2016-03-17 14:19:06,743: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:19:06,759: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:20:07,349: proxy - INFO - 192.168.0.61:52528 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 463 bytes
+2016-03-17 14:20:08,040: proxy - INFO - 192.168.0.61:52529 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 808 bytes
+2016-03-17 14:20:11,809: proxy - INFO - 192.168.0.61:52530 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 552 bytes
+2016-03-17 14:20:30,029: proxy - INFO - 192.168.0.61:52532 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 2197 bytes
+2016-03-17 14:20:32,357: proxy - INFO - 192.168.0.61:52525 - CONNECT gs-loc.apple.com:443
+2016-03-17 14:20:38,405: proxy - INFO - 192.168.0.61:52527 - CONNECT p43-buy.itunes.apple.com:443
+2016-03-17 14:20:53,091: proxy - INFO - 192.168.0.61:52526 - CONNECT 169452.engine.mobileapptracking.com:443
+2016-03-17 14:20:55,706: proxy - INFO - 192.168.0.61:52542 - CONNECT p04-keyvalueservice.icloud.com:443
+2016-03-17 14:21:30,604: proxy - INFO - 192.168.0.61:52543 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 2217 bytes
+2016-03-17 14:22:01,829: proxy - INFO - 192.168.0.61:52544 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:28:05,181: proxy - INFO - 192.168.0.61:52547 - CONNECT webdav.facebook.com:443
+2016-03-17 14:30:04,482: proxy - INFO - 192.168.0.61:52548 - CONNECT settings.crashlytics.com:443
+2016-03-17 14:30:05,068: proxy - INFO - 192.168.0.61:52551 - CONNECT data.flurry.com:443
+2016-03-17 14:30:05,687: proxy - INFO - 192.168.0.61:52553 - CONNECT data.flurry.com:443
+2016-03-17 14:30:05,753: proxy - INFO - 192.168.0.61:52550 - CONNECT api-2b3b1767.duosecurity.com:443
+2016-03-17 14:30:05,753: proxy - INFO - 192.168.0.61:52549 - CONNECT e.crashlytics.com:443
+2016-03-17 14:30:05,753: proxy - INFO - 192.168.0.61:52552 - CONNECT api-2b3b1767.duosecurity.com:443
+2016-03-17 14:36:41,223: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:36:41,236: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:36:49,114: proxy - INFO - 192.168.0.61:52560 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 463 bytes
+2016-03-17 14:36:50,319: proxy - INFO - 192.168.0.61:52562 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 808 bytes
+2016-03-17 14:36:50,415: proxy - INFO - 192.168.0.61:52563 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 2217 bytes
+2016-03-17 14:36:50,872: proxy - INFO - 192.168.0.61:52564 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1212 bytes
+2016-03-17 14:36:51,611: proxy - INFO - 192.168.0.61:52565 - CONNECT api.qpyou.cn:443
+2016-03-17 14:36:51,822: proxy - INFO - 192.168.0.61:52566 - GET image-aka.qpyou.cn:80/hubweb/hive_img/U/P/171012474/20160306/c5cf15f6cbdfeb7324511620ff7a6160.jpg - 200 OK - 9638 bytes
+2016-03-17 14:36:54,392: proxy - INFO - 192.168.0.61:52572 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 552 bytes
+2016-03-17 14:37:19,532: proxy - INFO - 192.168.0.61:52561 - CONNECT p43-buy.itunes.apple.com:443
+2016-03-17 14:37:19,951: proxy - INFO - 192.168.0.61:52558 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:37:19,957: proxy - INFO - 192.168.0.61:52559 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:37:24,881: proxy - INFO - 192.168.0.61:52570 - CONNECT webdav.facebook.com:443
+2016-03-17 14:37:25,000: proxy - INFO - 192.168.0.61:52571 - CONNECT graph.facebook.com:443
+2016-03-17 14:37:35,551: proxy - INFO - 192.168.0.61:52576 - CONNECT 169452.engine.mobileapptracking.com:443
+2016-03-17 14:37:50,894: proxy - INFO - 192.168.0.61:52577 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 2217 bytes
+2016-03-17 14:38:38,808: proxy - INFO - 192.168.0.61:52578 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:38:51,414: proxy - INFO - 192.168.0.61:52579 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 2217 bytes
+2016-03-17 14:39:38,828: proxy - INFO - 192.168.0.61:52580 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:39:52,036: proxy - INFO - 192.168.0.61:52581 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 2217 bytes
+2016-03-17 14:40:21,806: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:40:21,822: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:40:25,346: proxy - INFO - 192.168.0.61:52583 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1257 bytes
+2016-03-17 14:40:50,446: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:40:50,460: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:40:57,612: proxy - INFO - 192.168.0.61:52584 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1192 bytes
+2016-03-17 14:41:03,733: proxy - INFO - 192.168.0.61:52585 - POST m-mercury.qpyou.cn:80/init - 200 OK - 802 bytes
+2016-03-17 14:41:13,664: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:41:13,678: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:41:17,812: proxy - INFO - 192.168.0.61:52587 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1192 bytes
+2016-03-17 14:42:38,773: proxy - INFO - 192.168.0.61:52588 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:43:38,763: proxy - INFO - 192.168.0.61:52589 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:44:38,766: proxy - INFO - 192.168.0.61:52590 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:45:38,767: proxy - INFO - 192.168.0.61:52591 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:46:38,823: proxy - INFO - 192.168.0.61:52592 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:47:38,851: proxy - INFO - 192.168.0.61:52593 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:48:38,832: proxy - INFO - 192.168.0.61:52594 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:49:38,805: proxy - INFO - 192.168.0.61:52595 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:50:38,767: proxy - INFO - 192.168.0.61:52596 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:51:38,789: proxy - INFO - 192.168.0.61:52597 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:52:38,783: proxy - INFO - 192.168.0.61:52598 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:53:38,769: proxy - INFO - 192.168.0.61:52599 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:53:55,026: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:53:55,049: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:54:22,926: proxy - INFO - 192.168.0.61:52601 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 1192 bytes
+2016-03-17 14:54:28,614: proxy - INFO - 192.168.0.61:52602 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 916 bytes
+2016-03-17 14:54:28,927: proxy - INFO - 192.168.0.61:52603 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 916 bytes
+2016-03-17 14:54:29,437: proxy - INFO - 192.168.0.61:52604 - POST summonerswar-gb.com2us.net:80/api/gateway_c2.php - 200 OK - 916 bytes
+2016-03-17 14:54:38,819: proxy - INFO - 192.168.0.61:52600 - POST analytics.app-adforce.jp:80/fax/analytics - 200 OK - 110 bytes
+2016-03-17 14:54:59,440: SWPlugin - INFO - Loaded 5 plugins
+2016-03-17 14:54:59,459: proxy - INFO - Starting server on 192.168.0.10, port 8080
+2016-03-17 14:55:16,976: proxy - INFO - 192.168.0.61:52606 - POST activeuser.qpyou.cn:80/gateway.php - 200 OK - 463 bytes
+2016-03-20 17:50:04,131: SWPlugin - INFO - Loaded 5 plugins
+2016-03-20 17:50:04,151: proxy - INFO - Starting server on 192.168.0.10, port 8080
